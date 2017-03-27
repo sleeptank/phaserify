@@ -1,7 +1,7 @@
 {
   "name": "phaserify",
   "version": "1.0.0",
-  "description": "A simple command line tool to Browserify the current Phaser-CE release.",
+  "description": "A simple command line tool to Browserify the latest PhaserJS CE release.",
   "main": "index.js",
   "bin": {
     "phaserify": "cli.js"

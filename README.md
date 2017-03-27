@@ -1,6 +1,6 @@
 # `phaserify`
 
-### A simple command line tool to __Browserify__ the current __Phaser-CE__ release. 
+### A simple command line tool to __Browserify__ the latest __Phaser-CE__ release. 
 
 __Helps keep your development bundle light for compilation.__
 
