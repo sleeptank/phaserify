@@ -1,0 +1,35 @@
+{
+  "name": "phaserify",
+  "version": "1.0.0",
+  "description": "A simple command line tool to Browserify the current Phaser-CE release.",
+  "main": "index.js",
+  "bin": {
+    "phaserify": "cli.js"
+  },
+  "scripts": {
+    "update": "npm install",
+    "bundle": "browserify index.js -o phaser-bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleeptank/phaserify.git"
+  },
+  "keywords": [
+    "phaser",
+    "phaserjs",
+    "browserify",
+    "node",
+    "es2015",
+    "games"
+  ],
+  "author": "sleeptank <sleeptankxyz@gmail.com> (http://sleeptank.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sleeptank/phaserify/issues"
+  },
+  "homepage": "https://github.com/sleeptank/phaserify#readme",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "phaser-ce": "^2.7.5"
+  }
+}
